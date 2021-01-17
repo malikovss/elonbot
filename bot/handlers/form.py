@@ -38,6 +38,6 @@ async def form(message: types.Message, state: FSMContext):
         data = await state.get_data()
         for i in data:
             text+=f"{form[i][0]} {data[i]}\n"
-        await message.answer(text+"\n"+TAG[STATE_NAMES[state_class_name]]+"\n➡️ @Talim_link kanaliga ulanish", reply_markup=confirm())
+        await message.answer(text+"\n"+TAG[STATE_NAMES[state_class_name]]+"\n\n➡️ @Talim_link kanaliga ulanish", reply_markup=confirm())
         await message.answer("Ma'lumotlar to'g'riligini tasdiqlang",reply_markup=choose_menu())
         await state.finish()
