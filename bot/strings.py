@@ -132,7 +132,7 @@ FORMS={
 TITLE={
     "Xodim kerak":"<b>🏬 TAJRIBALI XODIM KERAK</b>",
     "Ustoz kerak":"<b>👨‍💻 USTOZ KERAK</b>",
-    "Shogird kerak":"<b>👨‍💻 Shogird kerak:</b>",
+    "Shogird kerak":"<b>🎒 Shogird kerak:</b>",
     "O’quv kurslari":"<b>🏬 O'quv kurslari</b>",
     "Ish joyi kerak":"<b>🏬 ISH JOYI KERAK</b>",
     "Xоdim kerak":"<b>🏬 Maktabga xodim kerak</b>"
