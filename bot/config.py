@@ -14,7 +14,7 @@ WEBHOOK_URL = f"{WEBHOOK_HOST}:{WEBHOOK_PORT}{WEBHOOK_PATH}"
 
 # webserver settings
 WEBAPP_HOST = '0.0.0.0'  # or ip
-WEBAPP_PORT = 3001
+WEBAPP_PORT = 80
 
 WEBHOOK_SSL_CERT = "webhook_cert.pem"
 WEBHOOK_SSL_PRIV = "webhook_pkey.pem"
