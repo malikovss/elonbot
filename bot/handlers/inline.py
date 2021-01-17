@@ -20,7 +20,6 @@ async def func(query: types.CallbackQuery):
         await query.message.answer(SENDEDTOADMIN, reply_markup=choose_menu())
     elif action == "cancel":
         await query.answer("Bekor qilindi")
-        await query.message.edit_reply_markup()
     elif action == "delete":
         await query.answer("O'chirildi")
         await query.message.delete()
